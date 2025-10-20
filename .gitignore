@@ -1,17 +1,15 @@
-# Python/Django
+﻿# Python
 __pycache__/
 *.py[cod]
-*.sqlite3
+*.egg-info/
+
+# Virtual env
+.venv/
+
+# Django / build
+staticfiles/
 db.sqlite3
 *.log
-
-# Envs
-.venv/
-env/
-venv/
-
-# Django collectstatic
-staticfiles/
 
 # VSCode
 .vscode/
